@@ -1,9 +1,5 @@
-/**
- * Production Gateway Service & Personal Portfolio Website
- * Version: 1.0.0
- */
 
-const SECRET_GATEWAY_PATH = "/xapiSecusreba1xllanC1er";
+const SECRET_GATEWAY_PATH = "/stremappsecuree";
 
 const CECOY_PORTFOLIO_TEMPLATE = `
 <!DOCTYPE html>
