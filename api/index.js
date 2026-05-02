@@ -1,7 +1,11 @@
+/**
+ * Production Gateway Service & Personal Portfolio Website
+ * Version: 1.0.0
+ */
 
 const SECRET_GATEWAY_PATH = "/xapiSecusreba1xllanC1er";
 
-const DECOY_PORTFOLIO_TEMPLATE = `
+const CECOY_PORTFOLIO_TEMPLATE = `
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -169,7 +173,7 @@ export default async function handleRequest(req, res) {
     // Return the convincing decoy portfolio if the URL doesn't match the hidden gateway path
     if (!req.url || !req.url.startsWith(SECRET_GATEWAY_PATH)) {
         res.setHeader('Content-Type', 'text/html');
-        return res.status(200).send(DECOY_PORTFOLIO_TEMPLATE);
+        return res.status(200).send(CECOY_PORTFOLIO_TEMPLATE);
     }
 
     // Proxy the connection downstream to the VPS
